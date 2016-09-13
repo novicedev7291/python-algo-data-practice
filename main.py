@@ -1,17 +1,12 @@
 from collections.list import Element, LinkedList
+from collections.hashTable import HashTable
+from utils.sort import BinarySearch, BubbleSort
 
 if __name__ == '__main__':
-	ele1 = Element('kuldeep')
-	ele2 = Element('Manish')
-	ele3 = Element('Jatin')
-	ele4 = Element('Kunal')
-	ele5 = Element('Vishal')
-	linkedList = LinkedList(None)
+	hTable = HashTable()
 
-	linkedList.append(ele1)
-	linkedList.append(ele2)
-	linkedList.append(ele3)
-	linkedList.append(ele4)
-	linkedList.append(ele5)
+	hTable.put('UDACITY','UDACITY')
+	hTable.put('UDAVITY','Ramayan')
 
-print(linkedList)
+	print(hTable.get('UDACITY'))
+
