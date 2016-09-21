@@ -11,8 +11,12 @@ class Vertex:
 	def __str__(self):
 		return self.value
 
+	def __repr__(self):
+		return self.value
+
 class Graph:
 	vertices = {}
+	visited = {}
 
 	def add_vertex(self, v):
 		if isinstance(v, Vertex) and v not in self.vertices:
@@ -33,6 +37,22 @@ class Graph:
 		for key in sorted(list(self.vertices.keys())):
 			print(key + str(self.vertices[key].neighbors))
 
+	def dfsSearch(self, start):
+		for key in self.vertices.keys():
+			self.visited[key] = False
+
+		self.__dfsSearch(start)
+
+	def __dfsSearch(self, start):
+		if self.visited[start] == True:
+			return
+		self.visited[start] = True
+		for neighbor in self.vertices[start].neighbors:
+			self.__dfsSearch(neighbor.value)
+
+	def print_dfs(self):
+		print(self.visited)
+
 
 g = Graph()
 
@@ -49,3 +69,5 @@ for edge in edges:
 	g.add_edge(edge[:1], edge[1:])
 
 g.print_graph()
+g.dfsSearch('C')
+g.print_dfs()
