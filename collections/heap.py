@@ -20,7 +20,7 @@ class MaxHeap:
 
 	def pop(self):
 		if len(self.heap) > 2:
-			self._swap(1, len(self.heap)-1)
+			self._swap(1, len(self.heap)-1)d
 			max = self.heap.pop()
 			self._bubbleDown(1)
 		elif len(self.heap) == 2:

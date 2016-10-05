@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	 "settings": {
+        // ...
+        "python_interpreter_path": "C:\\Users\\Jatin Arora\\AppData\\Local\\Programs\\Python\\Python35-32\\python",
+
+        "python_package_paths": [
+            "C:\\Users\\Jatin Arora\\python-apps\\python-algo-data-practice"
+        ]
+    }
+}
