@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"No",
+				"NotImplemented\tinstance"
+			],
+			[
+				"is",
+				"isinstance\tfunction"
+			],
+			[
+				"gr",
+				"graph_paths\tfunction"
+			],
+			[
+				"pa",
+				"path\tstatement"
+			],
+			[
+				"neg",
+				"neighbors"
+			],
+			[
+				"pri",
+				"print_dfs\tfunction"
+			],
+			[
+				"def",
+				"dfsSearch\tfunction"
+			],
+			[
+				"n",
+				"neighbors"
+			],
+			[
+				"add",
+				"add_vertex\tfunction"
+			],
+			[
+				"ad",
+				"add_vertex\tfunction"
+			],
+			[
+				"ver",
+				"Vertex\tclass"
+			],
+			[
+				"vert",
+				"vertices\tstatement"
+			],
+			[
+				"node",
+				"nodes\tstatement"
+			],
+			[
+				"ma",
+				"MaxHeap\tclass"
+			],
+			[
+				"_bu",
+				"_bubbleUp\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "algos/dijikstra.py",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 113.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Lint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"Anaconda: dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Anaconda: Disable linting on this file"
+			]
+		],
+		"width": 368.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/collections",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/utils"
+	],
+	"file_history":
+	[
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/graph.py",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/collections/graph.py",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/collections/tree.py",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/main.py",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-mousemap",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/collections/hashTable.py",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/sublime_jedi.sublime-settings",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/Default.sublime-keymap",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/python-algo.sublime-project",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/collections/heap.py",
+		"/C/Users/Jatin Arora/python-apps/python-algo-data-practice/.gitignore",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jatin Arora/main.py",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Jatin Arora/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"new ",
+			"items",
+			"_bubbleUp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"_bubbleDown"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "algos/dijikstra.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1268,
+								1268
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "python-algo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
